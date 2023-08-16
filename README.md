@@ -12,7 +12,7 @@ yarn build # Build the static site
 
 ## Adding new Channels
 
-Open `channels.js` and add your channel to the correct category. The slug should be set as the github repository name.
+Open `providers.js` and add your channel to the correct category. The slug should be set as the github repository name.
 `maintainers` is a list of github usernames that maintain the channel (they appear in the header of the channel page on the website)
 
 This will add the channel to the sidebar, and pull in the `README.md` from the repository during the build. 

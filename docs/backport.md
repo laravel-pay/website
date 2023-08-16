@@ -13,7 +13,7 @@ It brings support for all **official** and **community driven** notification cha
 You can install the package via composer:
 
 ```bash
-composer require laravel-notification-channels/backport
+composer require laravel-pay/backport
 ```
 
 Next, you must load the service provider:

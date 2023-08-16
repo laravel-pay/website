@@ -1,4 +1,4 @@
-const categories = require('../../channels')
+const categories = require('../../providers')
 
 const generatedSidebar = categories.map(cat => {
   return {
@@ -11,26 +11,26 @@ const generatedSidebar = categories.map(cat => {
 })
 
 module.exports = {
-  title: 'Laravel Notification Channels',
-  description: 'A collection of custom drivers for Laravel 5.5+, 6.x & 7.x',
+  title: 'Laravel Payment Providers',
+  description: 'A collection of Payment Providers for Laravel 5.5+, 6.x & 7.x',
   dest: './dist',
 
   themeConfig: {
-    algolia: {
-      apiKey: '662d6a5e1b798d17b5eaaeb770b415e7',
-      indexName: 'laravel-notification-channels'
-    },
+    // algolia: {
+    //   apiKey: '662d6a5e1b798d17b5eaaeb770b415e7',
+    //   indexName: 'laravel-pay'
+    // },
     channelCount: categories.reduce((count, cat) => count + cat.channels.length, 0),
     sidebarDepth: 1,
     nav: [
       { text: 'About / FAQ', link: '/about' },
       {
         text: 'Github',
-        link: 'https://github.com/laravel-notification-channels',
+        link: 'https://github.com/laravel-pay',
       },
       {
         text: 'Packagist',
-        link: 'https://packagist.org/packages/laravel-notification-channels/',
+        link: 'https://packagist.org/packages/laravel-pay/',
       },
     ],
     sidebar: [
@@ -49,8 +49,8 @@ module.exports = {
 
     categories.map(cat => {
       cat.channels.map(c => {
-        if (cat.name === 'Deprecated') c.deprecated = true;
-        if (cat.name === 'SMS / Voip') c.sms = true;
+        // if (cat.name === 'Deprecated') c.deprecated = true;
+        // if (cat.name === 'SMS / Voip') c.sms = true;
         allChannels.push(c)
       })
     })
@@ -62,28 +62,25 @@ module.exports = {
       if (!global['REPO_CACHE']) global['REPO_CACHE'] = {};
 
       if (!global['REPO_CACHE'][channel.slug]) {
-        const res = await axios.get(`https://raw.githubusercontent.com/laravel-notification-channels/${channel.slug}/master/README.md`)
+        const res = await axios.get(`https://raw.githack.com/laravel-pay/${channel.slug}/master/README.md`)
         console.log(`Fetched readme for ${channel.slug}`)
 
         let content = res.data;
 
-        content = content.replace(/\](?!.*(http|#))\(/g, `](https://github.com/laravel-notification-channels/${channel.slug}/blob/master/`)
+        content = content.replace(/\](?!.*(http|#))\(/g, `](https://github.com/laravel-pay/${channel.slug}/blob/master/`)
 
-        content = `<ChannelHeader slug="${channel.slug}" :maintainers='${JSON.stringify(channel.maintainers)}'></ChannelHeader>\n` + content
+        console.log("url is " + `https://raw.githack.com/laravel-pay/${channel.slug}/master/README.md`)
+
+        content = `<ChannelHeader slug="${channel.slug}" :maintainers='${JSON.stringify(channel.maintainers)}'></ChannelHeader>
+` + content;
 
         if (channel.deprecated) {
           content = `::: danger
-This channel is deprecated. Please see the [GitHub Repo](https://github.com/laravel-notification-channels/${channel.slug}) for more information
+This channel is deprecated. Please see the [GitHub Repo](https://github.com/laravel-pay/${channel.slug}) for more information
 :::\n` + content
         }
 
-        if (channel.sms) {
-          content = `::: tip
-Looking for an SMS provider? Check out [CompareSMS](https://comparesms.com.au) and find the best SMS provider for you
-:::\n` + content
-        }
-
-        global['REPO_CACHE'][channel.slug] = {
+        return {
           path: `/${channel.slug}/`,
           content,
         }
@@ -100,15 +97,15 @@ Looking for an SMS provider? Check out [CompareSMS](https://comparesms.com.au) a
     ['style', {}, 'img + .icon.outbound {display: none;}']
   ],
   extraWatchFiles: [
-    '../../channels.js'
+    '../../providers.js'
   ],
   plugins: [
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'UA-150688103-1'
-      }
-    ]
+    // [
+    //   '@vuepress/google-analytics',
+    //   {
+    //     'ga': 'UA-150688103-1'
+    //   }
+    // ]
   ]
 }
 

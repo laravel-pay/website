@@ -10,12 +10,12 @@ desired service yet, read on for instructions on how to contribute!
 
 ## Suggesting a new Channel
 
-Please create an issue in the [channels repo](https://github.com/laravel-notification-channels/channels) for your
+Please create an issue in the [channels repo](https://github.com/laravel-pay/channels) for your
 suggestion. Include links to the API documentation and provider's site.
 
 ## Contributing
 
-If you'd like to add a custom driver to the list, please download our [skeleton repo](https://github.com/laravel-notification-channels/skeleton), and open a new Pull Request on our [channels repo](https://github.com/laravel-notification-channels/channels).
+If you'd like to add a custom driver to the list, please download our [skeleton repo](https://github.com/laravel-pay/skeleton), and open a new Pull Request on our [channels repo](https://github.com/laravel-pay/channels).
 
 Contributions are **welcome** and will be fully **credited**.
 
@@ -27,9 +27,9 @@ Please read and understand the FAQ below before creating an issue or pull reques
 
 If you need help with anything, you can create an issue on github. If the issue relates to a specific channel, 
 you should create the issue it that repository. There's a link at the top of each documentation page to the channel's
-github repository. A list of [all the repos can be found here](https://github.com/laravel-notification-channels?type=source).
+github repository. A list of [all the repos can be found here](https://github.com/laravel-pay?type=source).
 
-If you have questions about the project in general, please create an issue in the [channels repo](https://github.com/laravel-notification-channels/channels)
+If you have questions about the project in general, please create an issue in the [channels repo](https://github.com/laravel-pay/channels)
 
 If you have found a security issue in one of the channels, try to contact the maintainer using the email in the channel's
 readme. If you can't get in contact with them, please email [atymicq@gmail.com](mailto:atymicq@gmail.com) and I'll address the issue.
@@ -131,5 +131,5 @@ You can find high quality SVG & PNG versions below.
 
 | Type | Preview                             | Download Link                                                                                                                                                  |
 |------|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PNG  | <img src="/logo.png" height="120"> | [Laravel-Notification-Channels-Logo.png](https://github.com/laravel-notification-channels/website/blob/master/branding/Laravel-Notification-Channels-Logo.png) |
-| SVG  | <img src="/logo.svg" height="120"> | [Laravel-Notification-Channels-Logo.svg](https://github.com/laravel-notification-channels/website/blob/master/branding/Laravel-Notification-Channels-Logo.svg) |
+| PNG  | <img src="/logo.png" height="120"> | [Laravel-pay-Logo.png](https://github.com/laravel-pay/website/blob/master/branding/Laravel-pay-Logo.png) |
+| SVG  | <img src="/logo.svg" height="120"> | [Laravel-pay-Logo.svg](https://github.com/laravel-pay/website/blob/master/branding/Laravel-pay-Logo.svg) |

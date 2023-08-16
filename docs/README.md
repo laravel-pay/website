@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /logo.svg
-heroText: Laravel Notification Channels
-tagline: A collection of custom notification drivers for Laravel
-actionText: Browse Channels →
+heroText: Laravel Payment Providers
+tagline: A collection of Payment Providers for Laravel
+actionText: Browse Providers →
 actionLink: /about/
 ---
 
@@ -34,11 +34,11 @@ actionLink: /about/
   </div>
   <div class="feature">
     <h2>Community Powered</h2>
-    <p>Channels are built and maintained by the community. Want to add a channel you use? Make a suggestion or add your channel on <a href="https://github.com/laravel-notification-channels/channels">channels repo</a>.</p>
+    <p>Channels are built and maintained by the community. Want to add a channel you use? Make a suggestion or add your channel on <a href="https://github.com/laravel-pay/channels">channels repo</a>.</p>
   </div>
 </div>
 
 <div class="footer">
-    MIT Licensed | Copyright © {{ (new Date).getFullYear() }} | <a href="https://github.com/orgs/laravel-notification-channels/people">Contributors</a>
-    <small class="maintain">Maintained by <a href="https://atymic.dev">atymic</a></small>
+    MIT Licensed | Copyright © {{ (new Date).getFullYear() }} | <a href="https://github.com/orgs/laravel-pay/people">Contributors</a>
+    <small class="maintain">Maintained by <a href="https://github.com/elsayed85">Elsayed Kamal</a></small>
 </div>

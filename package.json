@@ -4,6 +4,8 @@
     "vuepress": "^1.2.0"
   },
   "scripts": {
+    "install": "yarn install",
+    "run": "yarn dev",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
