@@ -38,8 +38,7 @@ module.exports = {
         title: 'Documentation',
         collapsable: false,
         children: [
-          ['/about', 'About / FAQ'],
-          ['/backport', 'Using on Laravel 5.1 / 5.2'],
+          ['/about', 'About / FAQ']
         ]
       }
     ].concat(generatedSidebar),

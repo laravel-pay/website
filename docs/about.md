@@ -11,7 +11,7 @@ suggestion. Include links to the API documentation and provider's site.
 
 ## Contributing
 
-If you'd like to add a custom driver to the list, please download our [skeleton repo](https://github.com/laravel-pay/payment-skeleton), and open a new Pull Request on our [Providers repo](https://github.com/laravel-pay/channels).
+If you'd like to add a custom driver to the list, please download our [skeleton repo](https://github.com/laravel-pay/payment-skeleton), and open a new Pull Request on our [Providers repo](https://github.com/laravel-pay/payment-providers).
 
 Contributions are **welcome** and will be fully **credited**.
 
