@@ -49,7 +49,7 @@ module.exports = {
 
     categories.map(cat => {
       cat.channels.map(c => {
-        // if (cat.name === 'Deprecated') c.deprecated = true;
+        if (cat.name === 'Deprecated') c.deprecated = true;
         // if (cat.name === 'SMS / Voip') c.sms = true;
         allChannels.push(c)
       })
@@ -68,8 +68,6 @@ module.exports = {
         let content = res.data;
 
         content = content.replace(/\](?!.*(http|#))\(/g, `](https://github.com/laravel-pay/${channel.slug}/blob/master/`)
-
-        console.log("url is " + `https://raw.githack.com/laravel-pay/${channel.slug}/master/README.md`)
 
         content = `<ChannelHeader slug="${channel.slug}" :maintainers='${JSON.stringify(channel.maintainers)}'></ChannelHeader>
 ` + content;
