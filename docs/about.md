@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Suggesting a new Payment Provider
 
-Please create an issue in the [channels repo](https://github.com/laravel-pay/payment-providers) for your
+Please create an issue in the [providers repo](https://github.com/laravel-pay/payment-providers) for your
 suggestion. Include links to the API documentation and provider's site.
 
 ## Contributing
@@ -28,7 +28,7 @@ github repository. A list of [all the repos can be found here](https://github.co
 If you have questions about the project in general, please create an issue in the [provider repo](https://github.com/laravel-pay/payment-providers)
 
 If you have found a security issue in one of the providers, try to contact the maintainer using the email in the provider's
-readme. If you can't get in contact with them, please email [elsayedkamal581999@gmail.com](mailto:elsayedkamal581999@gmail.com) and I'll address the issue.
+readme. If you can't get in contact with them, please email [laravelpay@gmail.com](mailto:laravelpay@gmail.com) and I'll address the issue.
 
 ### Who owns the work?
 
