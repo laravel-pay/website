@@ -4,8 +4,6 @@ permalink: /about/
 
 # Laravel Pay
 
-# write a short description of the organisation here
-
 ## Suggesting a new Payment Provider
 
 Please create an issue in the [channels repo](https://github.com/laravel-pay/payment-providers) for your
@@ -13,7 +11,7 @@ suggestion. Include links to the API documentation and provider's site.
 
 ## Contributing
 
-If you'd like to add a custom driver to the list, please download our [skeleton repo](https://github.com/laravel-pay/payment-skeleton), and open a new Pull Request on our [channels repo](https://github.com/laravel-pay/channels).
+If you'd like to add a custom driver to the list, please download our [skeleton repo](https://github.com/laravel-pay/payment-skeleton), and open a new Pull Request on our [Providers repo](https://github.com/laravel-pay/channels).
 
 Contributions are **welcome** and will be fully **credited**.
 
