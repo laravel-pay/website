@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: Laravel Payment Providers
 tagline: A collection of Payment Providers for Laravel
 actionText: Browse Providers →
