@@ -2,20 +2,18 @@
 permalink: /about/
 ---
 
-# Laravel Notification Channels
+# Laravel Pay
 
-We aim to provide a curated selection of notification channels for use in your Laravel applications.
-Please use the sidebar on the left to find the appropriate package for you needs. If we don't have a package for your
-desired service yet, read on for instructions on how to contribute! 
+# write a short description of the organisation here
 
-## Suggesting a new Channel
+## Suggesting a new Payment Provider
 
-Please create an issue in the [channels repo](https://github.com/laravel-pay/channels) for your
+Please create an issue in the [channels repo](https://github.com/laravel-pay/payment-providers) for your
 suggestion. Include links to the API documentation and provider's site.
 
 ## Contributing
 
-If you'd like to add a custom driver to the list, please download our [skeleton repo](https://github.com/laravel-pay/skeleton), and open a new Pull Request on our [channels repo](https://github.com/laravel-pay/channels).
+If you'd like to add a custom driver to the list, please download our [skeleton repo](https://github.com/laravel-pay/payment-skeleton), and open a new Pull Request on our [channels repo](https://github.com/laravel-pay/channels).
 
 Contributions are **welcome** and will be fully **credited**.
 
@@ -25,14 +23,14 @@ Please read and understand the FAQ below before creating an issue or pull reques
 
 ### How can I get support?
 
-If you need help with anything, you can create an issue on github. If the issue relates to a specific channel, 
-you should create the issue it that repository. There's a link at the top of each documentation page to the channel's
+If you need help with anything, you can create an issue on github. If the issue relates to a specific provider, 
+you should create the issue it that repository. There's a link at the top of each documentation page to the provider's
 github repository. A list of [all the repos can be found here](https://github.com/laravel-pay?type=source).
 
-If you have questions about the project in general, please create an issue in the [channels repo](https://github.com/laravel-pay/channels)
+If you have questions about the project in general, please create an issue in the [provider repo](https://github.com/laravel-pay/payment-providers)
 
-If you have found a security issue in one of the channels, try to contact the maintainer using the email in the channel's
-readme. If you can't get in contact with them, please email [atymicq@gmail.com](mailto:atymicq@gmail.com) and I'll address the issue.
+If you have found a security issue in one of the providers, try to contact the maintainer using the email in the provider's
+readme. If you can't get in contact with them, please email [elsayedkamal581999@gmail.com](mailto:elsayedkamal581999@gmail.com) and I'll address the issue.
 
 ### Who owns the work?
 
@@ -40,7 +38,7 @@ readme. If you can't get in contact with them, please email [atymicq@gmail.com](
 
  You'll be given **admin rights** to your repo. So you are in total control. Only if you ever do something like breaking semver we'll step in.
  
- You'll also be added to the Laravel Notification Channels github organization (which shows up on your github profile).
+ You'll also be added to the Laravel Pay github organization (which shows up on your github profile).
 
  If some problems should arise you're always free to copy over the code to your own repo and abandon the one in our organization.
 
@@ -123,13 +121,3 @@ If the project maintainer has any additional requirements, you will find them li
 - **One pull request per feature** - If you want to do more than one thing, send multiple pull requests.
 
 - **Send coherent history** - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please [squash them](http://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages) before submitting.
-
-## Branding
-
-The logo was designed by [irazasyed](https://github.com/irazasyed)  
-You can find high quality SVG & PNG versions below.
-
-| Type | Preview                             | Download Link                                                                                                                                                  |
-|------|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PNG  | <img src="/logo.png" height="120"> | [Laravel-pay-Logo.png](https://github.com/laravel-pay/website/blob/master/branding/Laravel-pay-Logo.png) |
-| SVG  | <img src="/logo.svg" height="120"> | [Laravel-pay-Logo.svg](https://github.com/laravel-pay/website/blob/master/branding/Laravel-pay-Logo.svg) |
