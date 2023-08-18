@@ -28,13 +28,12 @@ actionLink: /about/
     <h2>Simplicity First</h2>
     <p>Minimal setup with quick integration helps you focus on developing your newest product.</p>
   </div>
-  <div class="feature">
-    <h2>{{ $themeConfig.channelCount }} ready to use channels</h2>
-    <p>We've got channels for most of the popular services you use ready to go. Just pull in the channel, configure your keys & start sending notifications</p>
-  </div>
+
   <div class="feature">
     <h2>Community Powered</h2>
-    <p>Channels are built and maintained by the community. Want to add a channel you use? Make a suggestion or add your channel on <a href="https://github.com/laravel-pay/channels">channels repo</a>.</p>
+    <p>Providers are built and maintained by the community.
+Want to add a payment provider you use? Make a suggestion or add your channel on 
+<a href="https://github.com/laravel-pay/payment-providers">payment providers repo</a>.</p>
   </div>
 </div>
 
