@@ -29,17 +29,23 @@ actionLink: /about/
     <p>Minimal setup with quick integration helps you focus on developing your newest product.</p>
   </div>
 
-    <div class="feature">
-        <h2>Modern</h2>
-        <p>Developed with modern PHP standards and Laravel best practices in mind.</p>
-    </div>
+  <div class="feature">
+    <h2>{{ $themeConfig.channelCount }} ready to use payment providers</h2>
+    <p>
+        Laravel Pay provides a collection of payment providers for Laravel. 
+        Each provider has a separate repository with documentation and installation instructions.
+    </p>
+  </div>
 
   <div class="feature">
     <h2>Community Powered</h2>
-    <p>Providers are built and maintained by the community.
-Want to add a payment provider you use? Make a suggestion or add your channel on 
-<a href="https://github.com/laravel-pay/payment-providers">payment providers repo</a>.</p>
+    <p>
+    Providers are built and maintained by the community. 
+    Want to add a provider you use? Make a suggestion or add your channel on 
+    <a href="https://github.com/laravel-pay/payment-providers">payment providers repo</a>.
+    </p>
   </div>
+
 </div>
 
 <div class="footer">
