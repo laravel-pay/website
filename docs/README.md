@@ -29,6 +29,11 @@ actionLink: /about/
     <p>Minimal setup with quick integration helps you focus on developing your newest product.</p>
   </div>
 
+    <div class="feature">
+        <h2>Modern</h2>
+        <p>Developed with modern PHP standards and Laravel best practices in mind.</p>
+    </div>
+
   <div class="feature">
     <h2>Community Powered</h2>
     <p>Providers are built and maintained by the community.
